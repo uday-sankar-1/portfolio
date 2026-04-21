@@ -85,11 +85,11 @@ export default function Hero() {
         className="relative z-10 text-center px-6 md:px-12 max-w-4xl mx-auto transform-gpu"
       >
         {/* Badge */}
-        <motion.div variants={fadeIn("up", 0)} className="mb-4">
+        {/* <motion.div variants={fadeIn("up", 0)} className="mb-4">
           <span className="inline-block px-4 py-1.5 rounded-full bg-blue-500/10 border border-blue-500/30 text-blue-600 dark:text-blue-400 text-sm font-medium mb-6">
             Available for opportunities
           </span>
-        </motion.div>
+        </motion.div> */}
 
         <motion.h1
           variants={fadeIn("up", 0.04)}
@@ -138,13 +138,13 @@ export default function Hero() {
           >
             View My Projects
           </motion.button>
-          <motion.button
+          {/* <motion.button
             className="btn-outline w-full sm:w-auto transform-gpu"
             onClick={() => downloadFile()}
             whileHover={{ scale: 1.04, boxShadow: "0 0 24px rgba(59,130,246,0.4)" }}
             whileTap={{ scale: 0.97 }}
             transition={{ duration: 0.2, ease: "easeOut" }}
-          >
+          > */}
             Download Resume
           </motion.button>
         </motion.div>
